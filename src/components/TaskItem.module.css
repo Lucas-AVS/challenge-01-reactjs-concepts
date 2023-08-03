@@ -1,0 +1,44 @@
+.tasksContent {
+    display: flex;
+    gap: 1rem;
+
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+
+    border-radius: 8px;
+    background: var(--gray-500);
+    color: var(--gray-100);
+    font-size: 0.875rem;
+}
+
+.trash {
+    color: #000000;
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+.trash:hover {
+    color: var(--danger);
+}
+
+.circle, .checkCircle {
+    color: var(--blue);
+    height: 1.3rem;
+    width: 1.3rem;
+}
+
+.circle:hover {
+    color: var(--blue-dark);
+}
+
+.checkCircle:hover {
+    color: var(--purple);
+}
+
+.lineThrough {
+    text-decoration-line: line-through;
+  }
+
+.taskText{
+    width: 39.5rem;
+}

@@ -1,0 +1,101 @@
+.InputBox form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.InputBox textarea {
+    height: 3.4rem;
+    width: 40rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: var(--gray-500);
+    color: white;
+    padding: 1rem;
+}
+
+.InputBox textarea:placeholder-shown {
+    color: var(--gray-300);
+}
+
+.InputBox button {
+    height: 3.4rem;
+    width: 5.625rem;
+    border-radius: 8px;
+    border-style: none;
+    background-color: var(--blue-dark);
+    color: var(--gray-100);
+    font-size: 0.875rem;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.InputBox .PlusCircle{
+    width: 1rem;
+    height: 1rem;
+}
+
+.taskContainer {
+    margin: -1.735rem auto auto auto;
+    width: 45rem;
+    height: 28rem;
+}
+
+.taskHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.taskHeader span {
+    margin-left: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: var(--gray-200);
+
+    width: 1.5rem;
+    height: 0.4rem;
+    border-radius: 999px;
+    background-color: var(--gray-500);
+    padding: 0.5rem;
+}
+
+.createdTasks p {
+    font-size: 0,875rem;
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.completedTasks p {
+    font-size: 0,875rem;
+    font-weight: bold;
+    color: var(--purple);
+}
+
+.noTasks {
+    margin-top: 5.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.noTasks p {
+    font-size: 1rem;
+    color: var(--gray-300);
+}
+
+.clipboard {
+    height: 3.5rem;
+    width: 3.5rem;
+    color: var(--gray-300);
+    margin-bottom: 1rem;
+}
